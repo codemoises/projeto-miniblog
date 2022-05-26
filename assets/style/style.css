@@ -33,6 +33,11 @@ main {
 }
 
 main section {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.section-2 {
     width: 414px;
     margin: 0 auto;
 }
