@@ -123,3 +123,52 @@ section .txt-content-2 a {
 section .txt-content-2 a:hover {
     color: #6836a1;
 }
+
+/*-------------- RESET PASSWORD---------------- */
+
+header .back-icon {
+    width: 414px;
+    margin: 15px auto;
+}
+
+section .email-content-2 p {
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+section .email-content-2 input {
+    width: 300px;
+    height: 41px;
+    text-indent: 15px;
+}
+
+main section .password-content-2 p {
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+section .password-content-2 input {
+    width: 300px;
+    height: 41px;
+    text-indent: 15px;
+    
+}
+
+section .password-confirm input {
+    width: 300px;
+    height: 41px;
+    text-indent: 15px;
+
+}
+
+main section .password-confirm p {
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
