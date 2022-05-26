@@ -10,6 +10,10 @@ body {
     /*background-color: rgb(53, 54, 58);*/
 }
 
+li {
+    list-style: none;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
 }
@@ -29,7 +33,7 @@ main {
 }
 
 main section {
-    width: 300px;
+    width: 414px;
     margin: 0 auto;
 }
 
@@ -172,3 +176,71 @@ main section .password-confirm p {
     font-size: 15px;
 }
 
+/*-----------FEED SCREEN-------------*/
+
+header {
+    margin: 15px 0 0 0;
+}
+
+.main-content {
+    width: 414px;
+    margin: auto;
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #823ad5);
+}
+
+header .menu-content logo-2 {
+    width: 88px;
+    height: 35px;
+}
+
+header .menu-content {
+    width: 375px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .menu-content ul {
+    display: flex;
+    align-items: center;
+}
+
+header .menu-content ul li {
+    margin: 0 5px;
+}
+
+main .publication-content {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .publi .f-2 input {
+    border: 1px solid #c4c4c4;
+    height: 28px;
+    text-indent: 10px;
+    border-radius: 10px;
+}
+
+main .publication-content .publi {
+    display: flex;
+    align-items: center;
+}
+
+main .publication-content .publi .f-1 {
+    margin-right: 10px;
+}
+
+main .publication-content .f-3 input {
+    width: 78px;
+    height: 30px;
+    border: 1px solid #743ad5;
+    border-radius: 100px;
+    background: transparent;
+}
