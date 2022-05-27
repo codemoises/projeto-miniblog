@@ -259,8 +259,8 @@ main .publication-area .p-all {
 }
 
 .publication-area .p-all .username {
-    padding-bottom: 16px;
     display: flex;
+    align-items: center;
 }
 
 .publication-area .p-all .user-perfil {
@@ -269,11 +269,19 @@ main .publication-area .p-all {
 
 .publication-area .p-all .username h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     margin-right: 5px;
 }
 
 .publication-area .p-all .username p {
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
+    font-size: 11px;
+}
+
+.publication-area .p-all .information-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    width: 279px;
 }
