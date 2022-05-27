@@ -255,7 +255,8 @@ main .publication-area .p-all {
     margin: 0 auto;
     padding: 12px;
     display: flex;
-    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .publication-area .p-all .username {
@@ -282,6 +283,18 @@ main .publication-area .p-all {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 16px;
-    width: 279px;
+    margin-bottom: 0px;
+    width: 290px;
+}
+
+main .publication-area .p-all .p-txt {
+    padding: 10px 0;
+}
+
+main .publication-area .p-all .p-txt p {
+    font-size: 12px;
+}
+
+.publication-area .p-all .grid-2 {
+    width: 290px;
 }

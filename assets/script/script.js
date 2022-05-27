@@ -8,9 +8,9 @@ function username() {
 
     const name = 'Marcelo Rodriguez';
     const user1 = 'marcelinhopika123';
+    
 
     userName.innerHTML = `<h1>${name}</h1>`;
     user.innerHTML = `<p>@${user1}</p>`
-    
 }
 username()
