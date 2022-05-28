@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body {
-    /*background-color: rgb(53, 54, 58);*/
-}
-
 li {
     list-style: none;
 }
@@ -289,7 +285,8 @@ main .publication-area .p-all {
 
 .publication-area .p-all .information-user .icone-options {
     position: absolute;
-    left: 88%;
+    left: 91%;
+    top: 33%;
 }
 
 .publication-area .p-all .information-user .menu-close {
@@ -315,9 +312,10 @@ main .publication-area .p-all {
     display: none;
     display: flex;
     position: absolute;
-    left: 52.2%;
-    top: 33.4%;
+    left: 55.2%;
+    top: 33.2%;
     background-color: white;
+    z-index: 2;
     border: 1px solid gray;
 }
 
