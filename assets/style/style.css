@@ -278,27 +278,27 @@ main .publication-area .p-all {
 .publication-area .p-all .information-user {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 0px;
-    width: 290px;
+    width: 296px;
+    height: 18px;
 }
 
 
 .publication-area .p-all .information-user .icone-options {
-    position: absolute;
-    left: 91%;
-    top: 33%;
+   
 }
 
 .publication-area .p-all .information-user .menu-close {
     
 }
 
-.publication-area .p-all .information-user .menu-close .options .a-options ul img {
+.publication-area .a-options ul img {
     width: 12px;
     height: 12px;
 }
 
-.publication-area .p-all .information-user .menu-close .a-options ul a {
+.publication-area .a-options ul a {
     font-size: 12px;
     text-decoration: none;
     color: black;
@@ -306,20 +306,11 @@ main .publication-area .p-all {
 
 
 
-.publication-area .p-all .information-user .menu-close .options {
-    width: 170px;
-    height: 150px;
-    display: none;
-    display: flex;
-    position: absolute;
-    left: 55.2%;
-    top: 33.2%;
-    background-color: white;
-    z-index: 2;
-    border: 1px solid gray;
+.publication-area .menu-close .options {
+    
 }
 
-.publication-area .p-all .information-user .menu-close .options .a-options {
+.publication-area .menu-close .a-options {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -330,6 +321,11 @@ main .publication-area .p-all {
 
 .menu-close {
     display: none;
+    width: 170px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid gray;
+    z-index: 100;
 }
 
 main .publication-area .p-all .p-txt {
