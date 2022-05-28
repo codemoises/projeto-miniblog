@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repply</title>
     <link rel="stylesheet" href="/assets/style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
@@ -46,7 +47,21 @@
                                 <div id="username"></div>
                                 <div id="user"></div>
                             </div>
-                            <img src="assets/image/icons/icon-option.svg"alt="Icone de opções">
+                            <div id="menu" onclick="menuView()" class="icone-options">
+                                <img src="assets/image/icons/icon-option.svg"alt="Icone de opções">
+                            </div>
+                            <div id="options" class="menu-close">
+                                <div class="options">
+                                    <div class="a-options">
+                                        <ul>
+                                            <li> <img src="assets/image/icons/flag.svg" alt="Icone da bandeira"> <a href="#">Denunciar publicação</a></li>
+                                        </ul>
+                                        <div onclick="closeMenu()" class="icon-sidebar">
+                                            <img src="/assets/image/icons/icon-option.svg" alt="icone sidebar">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="p-txt">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ullam? Officiis ea a est debitis delectus deserunt voluptas odio autem corrupti perspiciatis dolorum quidem ut, quod labore vero eius aliquam.</p>

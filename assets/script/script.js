@@ -14,3 +14,27 @@ function username() {
     user.innerHTML = `<p>@${user1}</p>`
 }
 username()
+
+function menuView() {
+    const options = document.getElementById('options');
+    const menuView = document.getElementById('menu');
+
+    
+
+    if (menuView) {
+        options.style.display = 'block';
+        menuView.style.display = 'none';
+    }
+}
+
+function closeMenu() {
+    const options = document.getElementById('options');
+    const menuView = document.getElementById('menu');
+
+    
+
+    if (menuView) {
+        options.style.display = 'none';
+        menuView.style.display = 'block';
+    }
+}
