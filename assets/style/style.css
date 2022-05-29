@@ -311,12 +311,12 @@ main .publication-area .p-all {
 }
 
 .publication-area .menu-close .a-options {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 159px;
     height: 15px;
-    
 }
 
 .menu-close {
