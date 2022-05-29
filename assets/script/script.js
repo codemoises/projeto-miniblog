@@ -17,24 +17,24 @@ username()
 
 function menuView() {
     const options = document.getElementById('options');
-    const menuView = document.getElementById('menu');
+    const vermenu = document.getElementById('menu');
 
     
 
     if (menuView) {
         options.style.display = 'block';
-        menuView.style.display = 'none';
+        vermenu.style.display = '';
+
     }
 }
-
 function closeMenu() {
     const options = document.getElementById('options');
-    const menuView = document.getElementById('menu');
+    const vermenu = document.getElementById('menu');
 
     
 
-    if (menuView) {
+    if (closeMenu) {
         options.style.display = 'none';
-        menuView.style.display = 'block';
+        vermenu.style.display = 'block';
     }
 }
