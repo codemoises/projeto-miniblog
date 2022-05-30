@@ -16,25 +16,17 @@ function username() {
 username()
 
 function menuView() {
+    const btnMenu = document.getElementById('btn-menu');
     const options = document.getElementById('options');
-    const vermenu = document.getElementById('menu');
-
     
 
-    if (menuView) {
+    btnMenu.addEventListener('mouseenter', function ver() {
         options.style.display = 'block';
-        vermenu.style.display = '';
-
-    }
-}
-function closeMenu() {
-    const options = document.getElementById('options');
-    const vermenu = document.getElementById('menu');
-
-    
-
-    if (closeMenu) {
+    });
+    btnMenu.addEventListener('click', function sair() {
         options.style.display = 'none';
-        vermenu.style.display = 'block';
-    }
+        
+
+    });
 }
+menuView()
