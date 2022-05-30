@@ -310,11 +310,6 @@ main .publication-area .p-all {
     height: 12px;
 }
 
-.publication-area .dropdown-content a {
-    font-size: 12px;
-    text-decoration: none;
-    color: black;
-}
 
 
 
@@ -355,6 +350,7 @@ main .publication-area .p-all .p-txt p {
   #options {
     display: none;
     position: absolute;
+    left: -1239%;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -362,6 +358,7 @@ main .publication-area .p-all .p-txt p {
   }
   
   .dropdown-content a {
+    font-size: 12px;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
