@@ -431,11 +431,117 @@ main .publication-area .p-all .p-txt p {
   }
 
   .icf-img .icon-c .img-m img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
   }
 
   .icf-img .icon-c .value p {
     font-size: 14px;
     color: #9c9c9c;
+  }
+
+  .header-n {
+      width: 414px;
+      height: 65px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #823ad5);
+  }
+
+  header .notification h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+  header .notification {
+     margin: auto;
+  }
+
+  section .temp h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  section .qne {
+    width: 270px;
+    padding: 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main .section-p {
+    font-family: 'Roboto', sans-serif;
+    width: 414px;
+    height: 168px;
+    display: flex;
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #823ad5);
+  }
+
+  .section-p .information-container {
+    width: 207px;
+  }
+
+  .section-p .c1 .pf-3 {
+    width: 75px;
+    margin: 0 0 0 13px;
+  }
+
+  .section-p .c1 .pf-3 img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .section-p .c1 .c1-content {
+    width: 180px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .n-u {
+    padding: 10px 0 5px;
+  }
+
+  .n-u h1 {
+    font-size: 16px;
+  }
+
+  .p-user {
+    color: #c4c4c4;
+  }
+
+  .section-p .c2 .c2-content {
+    width: 88px;
+    margin: 0 auto;
+    padding: 40px 0 15px;
+  }
+
+  .section-p .c2 .c2-content h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .section-p .c2 .c2-content p {
+    font-size: 15px;
+    color: #c4c4c4;
+    text-align: center;
+  }
+
+  .section-p .c2 .btn-ep {
+    margin: 0 auto;
+    width: 171px;
+  }
+
+  .section-p .c2 input {
+    width: 171px;
+    height: 28px;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #823ad5);
   }
