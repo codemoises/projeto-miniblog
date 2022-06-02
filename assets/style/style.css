@@ -459,3 +459,17 @@ main .publication-area .p-all .p-txt p {
   header .notification {
      margin: auto;
   }
+
+  section .temp h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  section .qne {
+      width: 270px;
+      padding: 10px 0 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
