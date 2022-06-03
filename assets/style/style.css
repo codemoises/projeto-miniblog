@@ -199,9 +199,10 @@ header .menu-content logo-2 {
 header .menu-content {
     width: 375px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -212,6 +213,11 @@ header .menu-content ul {
 
 header .menu-content ul li {
     margin: 0 5px;
+}
+
+header .editar-perfil {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 main .publication-content {
@@ -441,14 +447,11 @@ main .publication-area .p-all .p-txt p {
   }
 
   .header-n {
-      width: 414px;
-      height: 65px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      border-bottom: 1px solid;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(to left, #743ad5, #823ad5);
+    width: 375px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
   }
 
   header .notification h1 {
@@ -457,7 +460,7 @@ main .publication-area .p-all .p-txt p {
   }
 
   header .notification {
-     margin: auto;
+    margin: auto;
   }
 
   section .temp h1 {
@@ -479,6 +482,9 @@ main .publication-area .p-all .p-txt p {
     width: 414px;
     height: 168px;
     display: flex;
+  }
+
+  .border-1 {
     border-bottom: 1px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #743ad5, #823ad5);
@@ -499,7 +505,7 @@ main .publication-area .p-all .p-txt p {
   }
 
   .section-p .c1 .c1-content {
-    width: 180px;
+    width: 177px;
     margin: 0 auto;
     padding: 15px;
   }
@@ -544,4 +550,22 @@ main .publication-area .p-all .p-txt p {
     border: 1px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to left, #743ad5, #823ad5);
+  }
+
+  .section-p .c1 .pf-4 {
+    margin: auto;
+  }
+
+  .section-ep {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-ep-2 .input-1 p {
+    font-size: 15px;
+    color: #c4c4c4;
+  }
+
+  .section-ep-2 .input-1 input {
+      width: 300px;
   }
