@@ -347,10 +347,6 @@ main .publication-area .p-all {
 
 
 
-.publication-area .menu-close .options {
-    
-}
-
 .publication-area .menu-close .a-options {
     margin: 0 auto;
     display: flex;
@@ -358,10 +354,6 @@ main .publication-area .p-all {
     align-items: center;
     width: 159px;
     height: 15px;
-}
-
-.menu-close {
-   
 }
 
 main .publication-area .p-all .p-txt {
@@ -568,5 +560,5 @@ main .publication-area .p-all .p-txt p {
   }
 
   .section-ep-2 .input-1 input {
-      width: 300px;
+    width: 300px;
   }
