@@ -1,5 +1,5 @@
 function enter() {
-    window.location.href = "feedScreen.html";
+   console.log('Acessar seu perfil');
 }
 
 function menu() {
@@ -11,4 +11,4 @@ function menu() {
 
 }
 
-menu()
+menu();

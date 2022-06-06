@@ -29,8 +29,8 @@ main {
 }
 
 main section {
-    width: 300px;
-    margin: 0 auto;
+  width: 388px;
+  margin: 0 auto;
 }
 
 .section-2 {
@@ -446,12 +446,12 @@ main .publication-area .p-all .p-txt p {
     align-items: center;
   }
 
-  header .notification h1 {
+  header .title-header h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
   }
 
-  header .notification {
+  header .title-header {
     margin: auto;
   }
 
@@ -462,11 +462,9 @@ main .publication-area .p-all .p-txt p {
   }
 
   section .qne {
-    width: 270px;
     padding: 10px 0 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+
   }
 
   main .section-p {
@@ -564,6 +562,7 @@ main .publication-area .p-all .p-txt p {
   }
 
   .menu-close {
+    font-family: 'Roboto', sans-serif;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -593,3 +592,37 @@ main .publication-area .p-all .p-txt p {
   }
 
   .btn-menu:hover .menu-close {display: block;}
+
+  .section-w {
+    width: 388px;
+    margin-left: 26.5px
+  }
+
+  .off {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 310px
+  }
+
+  .off h1 {
+    font-size: 16px;
+    padding-bottom: 4px;
+  }
+
+  .off p {
+    font-size: 15px;
+
+  }
+
+  .icon-content {
+    display: flex;
+    width: 287px;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .like-c {
+    margin: 0 3px;
+  }
