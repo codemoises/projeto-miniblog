@@ -562,3 +562,32 @@ main .publication-area .p-all .p-txt p {
   .section-ep-2 .input-1 input {
     width: 300px;
   }
+
+  .menu-close {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0%;
+    right: 39%;
+    border: 1px solid #c4c4c4;
+    display: none;
+  }
+
+  .menu-close ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-close ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 414px;
+    height: 34px;
+    border-bottom: 1px solid #c4c4c4;
+  }
+
+  .btn-menu:hover .menu-close {display: block;}
