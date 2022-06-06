@@ -569,9 +569,11 @@ main .publication-area .p-all .p-txt p {
     justify-content: center;
     position: fixed;
     bottom: 0%;
-    right: 39%;
     border: 1px solid #c4c4c4;
     display: none;
+    min-width: 414px;
+    margin: 0px 0%;
+    z-index: 3;
   }
 
   .menu-close ul {
