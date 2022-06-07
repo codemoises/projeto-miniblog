@@ -470,8 +470,8 @@ main .publication-area .p-all .p-txt p {
   main .section-p {
     font-family: 'Roboto', sans-serif;
     width: 414px;
-    height: 168px;
     display: flex;
+    flex-wrap: wrap;
   }
 
   .border-1 {
@@ -497,7 +497,7 @@ main .publication-area .p-all .p-txt p {
   .section-p .c1 .c1-content {
     width: 177px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 15px 15px 5px;
   }
 
   .n-u {
@@ -625,4 +625,15 @@ main .publication-area .p-all .p-txt p {
 
   .like-c {
     margin: 0 3px;
+  }
+
+  .c3 {
+    min-height: 40px;
+    width: 385px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  .c3 p {
+    font-size: 14px;
   }
