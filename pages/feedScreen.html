@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repply</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body onload="setFeedScreenInformation()">
+    <header>
+        <menu class="main-content">
+            <div class="menu-content">
+                <div class="logo-2"><a href="feedScreen.html">
+                    <img src="../assets/image/logo.svg" width="75px" height="25px" alt="Logo Repply">
+                </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="userProfileScreen.html"><img src="../assets/image/icons/icon-perfil.svg" alt="Icone perfil"></a></li>
+                        <li><a href="login.html"><img src="../assets/image/icons/logout.svg" alt="Icone perfil"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </menu>
+    </header>
+    <main>
+        <section id="publications" class="section-2">
+            <div class="publication-content main-content">
+                <div class="publi">
+                    <div class="f-2"><input type="text" name="publication" id="publication" placeholder="O que deseja publicar?" value=""></div>
+                </div>
+                <div class="f-3">
+                    <input type="button" value="Publicar" onclick="createPublication(document.getElementById('publication').value)">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="../assets/script/script.js"></script>
+</body>
+</html>

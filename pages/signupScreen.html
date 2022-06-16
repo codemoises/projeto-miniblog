@@ -5,44 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repply</title>
-    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="../assets/style/style.css">
 </head>
 <body>
     <header>
         <div class="back-icon">
-            <a href="index.html"><img src="assets/image/icons/Arrow 2.svg" alt="Icone de voltar a tela anterior"/></a>
+            <a href="login.html"><img src="../assets/image/icons/Arrow 2.svg" alt="Icone de voltar a tela anterior"/></a>
         </div>
         <div class="logo">
-            <img src="assets/image/1.svg" width="100%" alt="Logo Repply">
+            <img src="../assets/image/1.svg" width="100%" alt="Logo Repply">
         </div>
     </header>
     <main>
         <section>
             <div class="email-content-2 margin-1">
-                <p>Escolha nome de usuário</p>
-                <input type="text" name="txt-username" id="username" placeholder="Nome de usuário">
-
+                <p>Qual seu nome?</p>
+                <input type="text" name="name" id="name" placeholder="Nome de usuário">
             </div>
             <div class="email-content-2 margin-1">
-                <p>Defina seu e-mail</p>
-                <input type="email" name="email" id="email" placeholder="E-mail">
-                
+                <p>Escolha nome de usuário</p>
+                <input type="text" name="username" id="username" placeholder="@Usuário">
             </div>
             <div class="password-content-2 margin-1">
                 <p>Defina sua senha</p>
                 <input type="password" name="password" id="password" placeholder="Senha">
                 
             </div>
-            <div class="password-confirm margin-1">
-                <p>Confirma senha</p>
-                <input type="password" name="password" id="password" placeholder="Confirma senha">
-            </div>
 
             <div class="enter-btn margin-1">
-                <input id="enter" type="button" value="Avançar">
+                <input id="enter" type="button" value="Avançar" onclick="signUp(document.getElementById('name').value, '@' + document.getElementById('username').value.replace('@', ''), document.getElementById('password').value)">
             </div>
         </section>
     </main>
     <footer></footer>
+    <script src="../assets/script/script.js"></script>
 </body>
 </html>
