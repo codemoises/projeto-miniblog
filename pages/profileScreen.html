@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repply</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body onload="setProfileScreenInformation()">
+
+    <header>
+        <menu class="main-content">
+            <div class="menu-content">
+                <div class="back-icon-2">
+                    <a href="feedScreen.html"><img src="../assets/image/icons/Arrow 2.svg" alt="Icone de voltar a tela anterior"/></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li id="menu"><img src="../assets/image/icons/icon-menu.svg" alt="Icone menu"></li>
+                    </ul>
+                </nav>
+            </div>
+        </menu>
+        <nav id="menu-close" class="menu-close">
+            <ul>
+                <li>Redefinir senha</li>
+                <li>Remover conta</li>
+                <li>Reportar usuário</li>
+                <li>Sair</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section-p border-1">
+            <div class="c1 information-container">
+                <div class="c1-content">
+                    <div class="pf-3">
+                        <img id="picture" src="../assets/image/icons/icon-perfil-2.svg" alt="Foto perfil">
+                    </div>
+                    <div class="n-u">
+                        <h1 id="name"></h1>
+                    </div>
+                    <div class="p-user">
+                        <p id="id"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="c2 information-container">
+                <div class="c2-content">
+                    <div class="publications">
+                        <h1 id="publicationsCount"></h1>
+                        <p>Publicações</p>
+                    </div>
+                    <div class="followers">
+                        <h1 id="followersCount"></h1>
+                        <p>Seguidores</p>
+                    </div>
+                </div>
+                <div class="btn-ep">
+                    <input type="button" id="follow-button" value="" onclick="follow()">
+                </div>  
+            </div>
+            <div class="c3">
+                <p id="description"></p>
+            </div>
+        </section>
+        <section class="section-2" id="publications">
+        </section>
+    </main>
+    <footer></footer>
+    <script src="../assets/script/script.js"></script>
+</body>
+</html>

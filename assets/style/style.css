@@ -233,6 +233,8 @@ main .publi .f-2 input {
     height: 28px;
     text-indent: 10px;
     border-radius: 10px;
+    width: 260px;
+    resize: vertical;
 }
 
 main .publication-content .publi {
@@ -530,7 +532,7 @@ main .publication-area .p-all .p-txt p {
   }
 
   .section-p .c2 .btn-ep {
-    margin: 0 auto;
+    margin: 0 auto  10px auto;
     width: 171px;
   }
 

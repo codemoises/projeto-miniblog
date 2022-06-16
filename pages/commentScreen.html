@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repply</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+</head>
+<body onload="setCommentScreenInformation()">
+    <header>
+        <div class="main-content">
+            <div class="header-n">
+                <div class="back-icon-2">
+                    <a href="feedScreen.html"><img src="../assets/image/icons/Arrow 2.svg" alt="Icone de voltar a tela anterior"/></a>
+                </div>
+                <div class="title-header">
+                    <h1>Comentários</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="comments" class="section-2">
+            <div class="publication-content main-content">
+                <div class="publi">
+                    <div class="f-2"><input type="text" name="publication" id="commentInfo" placeholder="O que deseja comentar?" value=""></div>
+                </div>
+                <div class="f-3">
+                    <input type="button" value="Comentar" onclick="comment(document.getElementById('commentInfo').value)">
+                </div>
+            </div>  
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="../assets/script/script.js"></script>
+</body>
+</html>

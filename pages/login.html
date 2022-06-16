@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repply</title>
-    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="../assets/style/style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="assets/image/1.svg" width="100%" alt="Logo Repply">
+            <img src="../assets/image/1.svg" width="100%" alt="Logo Repply">
         </div>
     </header>
     <main>
         <section>
             <div class="email-content margin-1">
-                <p>E-mail</p>
-                <input type="email" name="email" id="email" placeholder="E-mail">
+                <p>Username</p>
+                <input type="username" name="username" id="username" placeholder="@seunome">
                 
             </div>
             <div class="password-content margin-1">
@@ -32,7 +32,7 @@
             </div>
 
             <div class="enter-btn margin-1">
-                <input id="enter" type="button" value="Entrar" onclick="enter()">
+                <input id="enter" type="button" value="Entrar" onclick="login(document.getElementById('username').value, document.getElementById('password').value)">
             </div>
 
             <div class="txt-content-2">
@@ -42,6 +42,6 @@
     </main>
     <footer></footer>
 
-    <script src="assets/script/script.js"></script>
+    <script src="../assets/script/script.js"></script>
 </body>
 </html>
